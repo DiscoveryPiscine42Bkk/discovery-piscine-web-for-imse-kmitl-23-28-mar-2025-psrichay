@@ -1,4 +1,0 @@
-echo 'ls -1 | grep -v "^\." | paste -sd ","' > midLS
-cat midLS
-chmod +x midLS
-./midLS
